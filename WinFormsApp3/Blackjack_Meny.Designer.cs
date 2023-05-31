@@ -39,7 +39,7 @@
             // 
             this.label_Välkommen.AutoSize = true;
             this.label_Välkommen.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_Välkommen.Location = new System.Drawing.Point(95, 28);
+            this.label_Välkommen.Location = new System.Drawing.Point(58, 28);
             this.label_Välkommen.Name = "label_Välkommen";
             this.label_Välkommen.Size = new System.Drawing.Size(276, 32);
             this.label_Välkommen.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             // button_Start
             // 
-            this.button_Start.Location = new System.Drawing.Point(150, 84);
+            this.button_Start.Location = new System.Drawing.Point(112, 86);
             this.button_Start.Name = "button_Start";
             this.button_Start.Size = new System.Drawing.Size(154, 23);
             this.button_Start.TabIndex = 1;
@@ -57,36 +57,39 @@
             // 
             // button_Inst
             // 
-            this.button_Inst.Location = new System.Drawing.Point(150, 113);
+            this.button_Inst.Location = new System.Drawing.Point(112, 115);
             this.button_Inst.Name = "button_Inst";
             this.button_Inst.Size = new System.Drawing.Size(154, 23);
             this.button_Inst.TabIndex = 2;
             this.button_Inst.Text = "Inställningar";
             this.button_Inst.UseVisualStyleBackColor = true;
+            this.button_Inst.Click += new System.EventHandler(this.button_Inst_Click);
             // 
             // button_Vinnare
             // 
-            this.button_Vinnare.Location = new System.Drawing.Point(150, 142);
+            this.button_Vinnare.Location = new System.Drawing.Point(112, 144);
             this.button_Vinnare.Name = "button_Vinnare";
             this.button_Vinnare.Size = new System.Drawing.Size(154, 23);
             this.button_Vinnare.TabIndex = 3;
             this.button_Vinnare.Text = "Vinnarstatistik";
             this.button_Vinnare.UseVisualStyleBackColor = true;
+            this.button_Vinnare.Click += new System.EventHandler(this.button_Vinnare_Click);
             // 
             // button_Avslut
             // 
-            this.button_Avslut.Location = new System.Drawing.Point(150, 171);
+            this.button_Avslut.Location = new System.Drawing.Point(112, 173);
             this.button_Avslut.Name = "button_Avslut";
             this.button_Avslut.Size = new System.Drawing.Size(154, 23);
             this.button_Avslut.TabIndex = 4;
             this.button_Avslut.Text = "Avsluta";
             this.button_Avslut.UseVisualStyleBackColor = true;
+            this.button_Avslut.Click += new System.EventHandler(this.button_Avslut_Click);
             // 
             // Blackjack_Meny
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 326);
+            this.ClientSize = new System.Drawing.Size(384, 361);
             this.Controls.Add(this.button_Avslut);
             this.Controls.Add(this.button_Vinnare);
             this.Controls.Add(this.button_Inst);
