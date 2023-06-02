@@ -10,9 +10,7 @@ namespace WinFormsApp3
         private void button_Start_Click(object sender, EventArgs e)
         {
             Blackjack_Spel x = new();
-
             this.Hide();
-            x.Show();
         }
 
         private void button_Inst_Click(object sender, EventArgs e)
